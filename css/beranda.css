@@ -1,0 +1,484 @@
+* {
+  font-family: arial, calibri;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar background */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fe8585;
+  padding: 15px 20px;
+  position: relative;
+  margin-bottom: 35px;
+}
+/* akhir navbar background */
+
+/* navbar brand */
+.navbar-brand a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+}
+/* akhir navbar brand */
+
+/* navbar garis tiga */
+.navbar-toggler {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+.navbar-toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 4px 0;
+}
+/* navbar garis tiga */
+
+/* navbar background menu */
+.navbar-menu {
+  display: flex;
+  opacity: 90%;
+}
+/* akhir navbar background menu */
+
+/* navbar text menu */
+.navbar-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-menu li {
+  margin-left: 50px;
+}
+.navbar-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* akhir navbar text menu */
+
+/* profile */
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* poto profile */
+.profile-pic {
+  width: 160px;
+  height: 170px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+/* akhir poto profile */
+
+/* link font Social Media */
+.social-links a {
+  color: #2c3e50;
+  font-size: 1.5em;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+.social-links a:hover {
+  color: #fe8585;
+}
+/* akhir link font Social Media */
+
+/* tentang saya */
+
+/* tentang saya background */
+.about {
+  padding: 60px 0;
+  background: #fe8585;
+}
+/* akhir tentang saya background */
+
+/* teks keahlian saya */
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.about p {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-weight: 300;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+.about ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+/* tentang saya kotak */
+.about ul li {
+  margin: 10px 15px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  transition: background 0.3s, transform 0.3s;
+}
+.about ul li:hover {
+  background: #ddd;
+  transform: translateY(-5px);
+}
+/* akhir teks about me */
+
+/* akhir tentang saya */
+
+/* akhir profile*/
+
+/* my skills background*/
+.skills {
+  padding: 60px 0;
+  background: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* akhir my skill background*/
+
+/* my skills */
+.skills h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+/* akhir my skills */
+
+/* my skills box background */
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 30px;
+  background: #fe8585;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.3s;
+  flex-wrap: wrap;
+}
+/* akhirmy skills box background */
+
+/* skills box image */
+.skill img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 20px;
+  transition: transform 0.3s;
+}
+/* akhir skills box image */
+
+/* skills box judul */
+.skill h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #000000;
+}
+/* akhir skills box judul */
+
+/* skills box teks */
+.skill p {
+  font-weight: 300;
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+/* akhir skills box teks */
+
+/* skills box shadow */
+.skill:hover {
+  box-shadow: 0 4px 10px #ffa4a4;
+  transform: translateY(-5px);
+}
+.skill img:hover {
+  transform: scale(1.1);
+}
+/* akhir skills box shadow */
+.projects {
+  padding: 60px 0;
+  background: #fff;
+}
+
+/* project */
+
+/* project teks my project  */
+.projects h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+/* akhir project teks my project  */
+
+/* project box background */
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 24px;
+  background: #fe8585;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.3s;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+/* akhir project box background */
+
+/* project box image */
+.project img {
+  width: 120px;
+  height: 200px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+/* akhir project box image */
+
+/* project box judul*/
+.project h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+/* akhir project box judul*/
+
+/* project box text */
+.project p {
+  font-weight: 300;
+  flex: 1;
+}
+/* akhir project box text */
+
+/* project box shadow */
+.project:hover {
+  box-shadow: 0 4px 10px #2c3e50;
+  transform: translateY(-5px);
+}
+.project img:hover {
+  transform: scale(1.1);
+}
+/* akhir project box shadow */
+
+/* Kontak */
+
+.contact-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  transition: box-shadow 0.3s;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-container:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+h1:hover {
+  color: #2c3e50;
+}
+
+/* Form Group */
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.contact-form label:hover {
+  color: #333;
+}
+
+/* Form Inputs */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fafafa;
+  color: #444;
+  font-size: 1rem;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: #2c3e50;
+  background-color: #fff;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Submit Button */
+.submit-button {
+  display: inline-block;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 14px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #fe8585;
+  transform: translateY(-2px);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+}
+/* akhir contact */
+
+/* hak cipta */
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.footer:hover {
+  background-color: #1a252f;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.footer-content a {
+  color: #ffdd00;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-content a:hover {
+  color: #fe8585;
+}
+/* akhir hak cipta */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: flex;
+  }
+
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #605f5f;
+    z-index: 10;
+  }
+
+  .navbar-menu.open {
+    display: flex;
+  }
+
+  .navbar-menu ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-menu li {
+    margin: 10px 0;
+  }
+}
+
+.footer-content p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 0 10px;
+  }
+
+  .footer-content p {
+    font-size: 0.8rem;
+  }
+}

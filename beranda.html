@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/beranda.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a href="#">My-Profile</a>
+      </div>
+      <button class="navbar-toggler" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <main>
+      <!-- Profile -->
+      <section class="hero">
+        <div class="container">
+          <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic animate__animated animate__zoomIn" />
+          <h2 class="animate__animated animate__fadeInUp">Hi, Saya Ahmad Tajudin</h2>
+          <br />
+          <p class="animate__animated animate__fadeInUp">Saya adalah seorang mahasiswa<br />jurusan teknik informatika<br />salam kenal🫠</p>
+          <br />
+          <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank">Linked in<i class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com" target="_blank">Github<i class="fab fa-github"></i></a>
+            <a href="https://www.twitter.com" target="_blank">twiter<i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- akhir profile -->
+
+      <!-- tentang saya -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2>Tentang Saya</h2>
+          <p>
+            Saya seorang pengembang web dengan pengalaman dalam membuat situs web. Saya selalu bersemangat untuk mempelajari teknologi baru dan meningkatkan keterampilan saya. Saya suka memecahkan masalah dan menemukan solusi kreatif
+            terhadap tantangan yang kompleks.
+          </p>
+          <p>Berikut beberapa hal tentang saya:</p>
+          <ul>
+            <li>Pengembangan Web</li>
+            <li>Design</li>
+            <li>Editor</li>
+            <li>Animator</li>
+          </ul>
+        </div>
+      </section>
+      <!-- tentang saya -->
+
+      <!-- skill saya -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2>Keahlian saya</h2>
+          <div class="skill animate__animated animate__fadeIn">
+            <img src="images/skill 0.png" alt="Desain Grafis" />
+            <h3>Desain Grafis</h3>
+            <p>Adobe Illustrator, Adobe Photoshop, dan Canva.</p>
+          </div>
+          <div class="skill animate__animated animate__fadeIn" data-wow-delay="0.2s">
+            <img src="images/skill 1.png" alt="Video Editing" />
+            <h3>Video Editing</h3>
+            <p>Adobe After Effects, Adobe Premiere Pro, dan Capcut.</p>
+          </div>
+          <div class="skill animate__animated animate__fadeIn" data-wow-delay="0.4s">
+            <img src="images/skill 2.png" alt="Animasi" />
+            <h3>Animasi</h3>
+            <p>Adobe Animate, Blender, FlipaClip.</p>
+          </div>
+        </div>
+      </section>
+      <!-- akhir skill saya -->
+
+      <!-- project saya -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>My Projects</h2>
+          <div class="project animate__animated animate__fadeIn">
+            <img src="images/project 0.jpg" alt="Project 0" />
+            <h3>Project 1: Desain Grafis</h3>
+            <p>Desain ini merupakan contoh kreativitas saya dalam ujian praktek multimedia.</p>
+          </div>
+          <div class="project animate__animated animate__fadeIn" data-wow-delay="0.2s">
+            <img src="images/project 1.jpg" alt="Project 1" />
+            <h3>Project 2: Video Editing</h3>
+            <p>Video ini adalah hasil kreativitas spontan dengan menghasilkan karya yang mengesankan.</p>
+          </div>
+          <div class="project animate__animated animate__fadeIn" data-wow-delay="0.4s">
+            <img src="images/project 2.jpg" alt="Project 2" />
+            <h3>Project 3: Animasi</h3>
+            <p>Animasi ini menampilkan model mobil 3D dengan gerakan dinamis.</p>
+          </div>
+        </div>
+      </section>
+      <!-- akhir project saya -->
+
+      <!-- kontak saya -->
+      <div class="contact-container">
+        <h1>Kontak Saya</h1>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Gmail</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="submit-button">Kirim</button>
+        </form>
+      </div>
+      <!-- akhir kontak saya -->
+    </main>
+
+    <!-- copyright -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; <span id="year"></span> My Profile. Seluruh Hak Cipta</p>
+        <p>Designed by <a href="https://yourwebsite.com" target="_blank">Ahmad Tajudin</a></p>
+      </div>
+    </footer>
+    <!-- akhir copyright -->
+
+    <script src="js/beranda.js"></script>
+  </body>
+</html>
